@@ -3,25 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome, senha
+//Faça outro exercício para que sejam  impressos os números da seguinte forma:
+//0,10....90
 
-		escreva("Digite o seu nome:")
-		leia(nome)
-		escreva("Digite a sua senha:")
-		leia(senha)
 
-		se(nome == "Taiane" e senha == "12345678"){
-			escreva("Bem vindo(a) ao curso!")
-		}senao{
-			escreva("Aluno não inscrito no curso!")
-		}
-}}
+		para(inteiro num=0; num <=100; num +=10) // ou o ultimo pode ser: num= num+10
+		escreva(num, "\n")					
+	//primeiro é valor inicial; segundo é valor final; terceiro é de quanto em quanto acrescentar
+	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 239; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

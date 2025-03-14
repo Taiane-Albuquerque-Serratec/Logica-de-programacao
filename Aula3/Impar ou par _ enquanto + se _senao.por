@@ -3,25 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome, senha
 
-		escreva("Digite o seu nome:")
-		leia(nome)
-		escreva("Digite a sua senha:")
-		leia(senha)
+		inteiro num
+		escreva("Digite um número:")
+		leia(num)
 
-		se(nome == "Taiane" e senha == "12345678"){
-			escreva("Bem vindo(a) ao curso!")
-		}senao{
-			escreva("Aluno não inscrito no curso!")
+		enquanto(num > 0){
+			se(num%2 == 0){
+				escreva("Par" +"\n")
+			}senao{
+				escreva("Impar" +"\n")
+				
+			}
+		escreva("Digite um número:")
+		leia(num)
 		}
-}}
+		
+	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

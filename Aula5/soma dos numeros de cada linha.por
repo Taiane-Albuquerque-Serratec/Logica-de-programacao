@@ -1,27 +1,32 @@
 programa
 {
-	
+
 	funcao inicio()
 	{
-		cadeia nome, senha
-
-		escreva("Digite o seu nome:")
-		leia(nome)
-		escreva("Digite a sua senha:")
-		leia(senha)
-
-		se(nome == "Taiane" e senha == "12345678"){
-			escreva("Bem vindo(a) ao curso!")
-		}senao{
-			escreva("Aluno não inscrito no curso!")
+		inteiro matriz[3][2], somaLinha=0
+		//linha
+		para(inteiro i=0; i < 3; i++){
+			//Coluna
+			para(inteiro j=0; j < 2; j++){
+				escreva("Digite o nº:")
+				leia(matriz[i][j])
+				//soma+= matriz[i][j]
+				somaLinha = somaLinha + matriz[i][j]
+				
+			}
+		escreva("Total Linha:",somaLinha, "\n")
+		
+		
 		}
-}}
+		
+	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 287; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

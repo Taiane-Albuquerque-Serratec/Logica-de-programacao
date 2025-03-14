@@ -12,8 +12,8 @@ Exemplo : Entrada :  Digite o número de horas trabalhadas no ano : 1760
            Saída :    Seu salário anual é de : R$ 23600*/
 
 
-		real pagamento_normal
-		real pagamento_extra
+		inteiro pagamento_normal
+		inteiro pagamento_extra
 		real horas_normais
 		real horas_extras
 		real salario_mensal
@@ -45,7 +45,7 @@ Exemplo : Entrada :  Digite o número de horas trabalhadas no ano : 1760
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1100; 
+ * @POSICAO-CURSOR = 540; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

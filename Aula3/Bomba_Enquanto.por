@@ -1,27 +1,32 @@
 programa
 {
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		cadeia nome, senha
+		inteiro contador = 10
 
-		escreva("Digite o seu nome:")
-		leia(nome)
-		escreva("Digite a sua senha:")
-		leia(senha)
+	enquanto(contador > 0){
+			
+	limpa()
 
-		se(nome == "Taiane" e senha == "12345678"){
-			escreva("Bem vindo(a) ao curso!")
-		}senao{
-			escreva("Aluno não inscrito no curso!")
-		}
-}}
+	escreva("Detonação em:" + contador)
+	contador--
+	//ou contador = contador -1
+	//ou contador -= 1
+	Util.aguarde(1000)
+	}
+	limpa()
+	escreva("Boom!")
+			
+	}
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 171; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
